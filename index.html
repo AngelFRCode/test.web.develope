@@ -65,6 +65,7 @@ h2 {
 <body>
 <!-- partial:index.partial.html -->
 <h2>COLLECT All COINS!</h2>
+<button onclick="clickTest1()">Test1</button>
 <h2>Use WASD Or Arrow Keys To Move</h2>
 <!-- partial -->
 <script>
@@ -569,6 +570,10 @@ function runGame(plans, Display) {
     });
   }
   startLevel(0);
+}
+
+function clickTest1() {
+  alert("Test1 Working");
 }
 
 runGame(LEVELS, DOMDisplay);
